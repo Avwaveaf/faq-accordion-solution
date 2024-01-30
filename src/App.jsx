@@ -8,7 +8,7 @@ function App() {
         {/* Large screen background */}
         <div
           style={{ backgroundImage: `url(/images/background-pattern-desktop.svg})` }}
-          className="hidden md:block w-full h-1/3 absolute -z-10 top-0 bg-cover"
+          className="hidden md:block w-full h-1/3 absolute -z-10 top-0 bg-cover bg-[url(/images/background-pattern-desktop.svg)]"
           aria-hidden="true"
         ></div>
 
