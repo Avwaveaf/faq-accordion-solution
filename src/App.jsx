@@ -1,6 +1,5 @@
 import Card from "./components/Card";
-import backgroundLarge from "./images/background-pattern-desktop.svg";
-import backgroundSmall from "./images/background-pattern-mobile.svg";
+
 
 function App() {
   return (
@@ -8,14 +7,14 @@ function App() {
       <section className="h-screen w-screen flex flex-col justify-center items-center relative">
         {/* Large screen background */}
         <div
-          style={{ backgroundImage: `url(${backgroundLarge})` }}
+          style={{ backgroundImage: `url(/images/background-pattern-desktop.svg})` }}
           className="hidden md:block w-full h-1/3 absolute -z-10 top-0 bg-cover"
           aria-hidden="true"
         ></div>
 
         {/* Small screen background */}
         <div
-          style={{ backgroundImage: `url(${backgroundSmall})` }}
+          style={{ backgroundImage: `url(/images/background-pattern-mobile.svg})` }}
           className="block md:hidden w-full h-1/3 absolute -z-10 top-0 bg-cover"
           aria-hidden="true"
         ></div>
