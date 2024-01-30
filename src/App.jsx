@@ -1,6 +1,6 @@
 import Card from "./components/Card";
-import backgroundLarge from "./assets/images/background-pattern-desktop.svg";
-import backgroundSmall from "./assets/images/background-pattern-mobile.svg";
+import backgroundLarge from "../public/images/background-pattern-desktop.svg";
+import backgroundSmall from "../public/images/background-pattern-mobile.svg";
 
 function App() {
   return (
