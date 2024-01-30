@@ -6,7 +6,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -31,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repos](https://github.com/avwaveaf)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site](https://faq-accordion-solution-avwaveaf.vercel.app/)
 
 ## My process
 
