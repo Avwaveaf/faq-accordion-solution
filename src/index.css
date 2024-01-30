@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-white;
+font-family: 'Work Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+  color: black;
+}
+
+.card {
+  @apply border-[2px] bg-white  max-w-xs  p-8 gap-5  rounded-2xl mx-5 md:mx-0 flex flex-col md:max-w-xl w-full shadow-md !important;
+
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.accordion-content.open {
+  max-height: 100%;
+  opacity: 1;
+}
+
+
+
